@@ -1,0 +1,50 @@
+
+body {/* geral */
+    font-family: Arial, sans-serif;/* fonte */
+    margin: 0;/* espaço fora do elemento */
+    padding: 0;/* espaço dentro do elemento */
+    background: rgb(139, 139, 139);/* cor do elemento */
+    display: flex;/* posiçao na tela */
+    justify-content: center;/* posiçao na tela */
+    align-items: center;/* retira bordas de cima e de baixo  */
+    min-height: 100vh; /* garante que o conteudo ocupa toda a altura da pagina */
+    box-sizing: initial;
+}
+
+.sublinhado{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.container {/* pagina */
+    width: 50%;/* largura */
+    max-width: 4000px; /* limita o tamanho maximo do curriculo */
+    background-color: #e8e8e8;/* cor container de dentro  */
+    padding: 80px;/* espaço dentro do elemento */
+    box-shadow: 0 0 10px rgba(60, 14, 14, 0.1);
+    box-sizing: border-box; /* garante que o padding seja incluido na largura */
+}
+
+.fonte{/* fonte */
+    font-family: 'Times New Roman';/* fonte */
+}
+
+.box {/* caixinha de informaçoes */
+    background-color: rgb(139, 139, 139); /* Cor de fundo */
+    padding: 10px;            /* espaçamento interno */
+    border-radius: 8px;        /* cantos arredondados */
+    max-width: 1000px;          /* largura maxima da caixa */
+}
+
+.centralizar{
+    text-align:center; /* centralizar cabeçalho*/
+}
+
+.tam_font{/* tamanho fonte nav */
+    font-size: 15px;
+}
+
+
+
+
+
+
